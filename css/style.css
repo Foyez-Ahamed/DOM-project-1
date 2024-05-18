@@ -7,4 +7,30 @@
 
 body{
     font-family: "Roboto", sans-serif;
+    background-color: #151515;
+    color: #EEEEEE;
+}
+
+.navbar{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightside{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.rightside img{
+    width: 40px;
+    height: 40px;
+}
+
+.rightside p{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 500;
 }
